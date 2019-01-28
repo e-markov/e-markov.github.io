@@ -1,6 +1,6 @@
 # e-markov.github.io
 Мой первый проект
 <br>
-https://github.com/e-markov/practice
+<a><a href="https://github.com/e-markov/practice/">Скачать проект</a>
 <br>
-https://e-markov.github.io/practice/
+<a href="https://e-markov.github.io/practice/" target="_blank">Посмотреть проект</a>
