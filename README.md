@@ -1,5 +1,5 @@
 # e-markov.github.io
-Мой первый проект
+Мой первый проект - practice
 <br>
 <a><a href="https://github.com/e-markov/practice/">Скачать проект</a>
 <br>
