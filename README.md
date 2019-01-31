@@ -1,6 +1,10 @@
 # Мои проекты / My project
 
-### Первый проект - Practice
+## Первый проект
+```
+вёрстка в течении нескольких месяцев по ходу прохождения курса
+```
+### Practice
 *[Скачать проект](https://github.com/e-markov/practice/)*
 
 *[Посмотреть проект](https://e-markov.github.io/practice/)*
