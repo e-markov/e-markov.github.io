@@ -9,12 +9,14 @@ body {
 
 main {
   height: 100vh;
+  background: #37474f url(../img/background-main.jpg) center no-repeat;
+  background-size: cover;
 }
 
 header {
   position: fixed;
   top: 0;
-  height: 6rem;
+  height: 8rem;
   widows: 100%;
   background-color: #ffffff;
 }
