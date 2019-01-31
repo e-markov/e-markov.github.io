@@ -1,10 +1,9 @@
 # Мои проекты / My project
 
 ### Первый проект - Practice
-*
-  *[Скачать проект](https://github.com/e-markov/practice/)*
-*
-  *[Посмотреть проект](https://e-markov.github.io/practice/)*
+*[Скачать проект](https://github.com/e-markov/practice/)*
+
+*[Посмотреть проект](https://e-markov.github.io/practice/)*
 
 ## ![alt text](https://github.com/e-markov/e-markov.github.io/blob/master/gulp.png)
 ```
