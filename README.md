@@ -1,16 +1,21 @@
 # Мои проекты / My project
 
-### Первый проект - Practice
-[Скачать проект](https://github.com/e-markov/practice/)
+## Первый проект
+```
+  вёрстка в течение нескольких месяцев по ходу прохождения курса
+```
+### Practice
+*[Скачать проект](https://github.com/e-markov/practice/)*
 
-<a href="https://e-markov.github.io/practice/" target="_blank">Посмотреть проект</a>
+*[Посмотреть проект](https://e-markov.github.io/practice/)*
 
-### Проекты на ![alt text](https://github.com/e-markov/e-markov.github.io/blob/master/gulp.svg)
+## Проекты на `Gulp`
+
 #### Restaurant
-<a><a href="https://github.com/e-markov/restaurant/">Скачать проект</a>
+*[Скачать проект](https://github.com/e-markov/restaurant/)*
 
-<a href="https://e-markov.github.io/restaurant/" target="_blank">Посмотреть проект</a>
+*[Посмотреть проект](https://e-markov.github.io/restaurant/)*
 #### Portfolio
-<a><a href="https://github.com/e-markov/portfolio/">Скачать проект</a>
+*[Скачать проект](https://github.com/e-markov/portfolio/)*
 
-<a href="https://e-markov.github.io/portfolio/" target="_blank">Посмотреть проект</a>
+*[Посмотреть проект](https://e-markov.github.io/portfolio/)*
