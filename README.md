@@ -2,7 +2,7 @@
 
 ## Первый проект
 ```
-вёрстка в течение нескольких месяцев по ходу прохождения курса
+  вёрстка в течение нескольких месяцев по ходу прохождения курса
 ```
 ### Practice
 *[Скачать проект](https://github.com/e-markov/practice/)*
@@ -11,7 +11,7 @@
 
 ## ![alt text](https://github.com/e-markov/e-markov.github.io/blob/master/gulp.png)
 ```
-   проекты на Gulp
+  проекты на Gulp
 ```
 #### Restaurant
 *[Скачать проект](https://github.com/e-markov/restaurant/)*
