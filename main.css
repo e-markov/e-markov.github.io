@@ -1,0 +1,35 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+main {
+  height: 100vh;
+}
+
+header {
+  height: 6rem;
+  background-color: #000000;
+}
+
+@media (min-width: 768px) {
+.container {
+  width:75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 97rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 117rem;
+  }
+}
