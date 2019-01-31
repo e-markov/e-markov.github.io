@@ -1,11 +1,11 @@
 # Мои проекты / My project
 
 ### Первый проект - Practice
-<a><a href="https://github.com/e-markov/practice/">Скачать проект</a>
+[Скачать проект](https://github.com/e-markov/practice/)
 
 <a href="https://e-markov.github.io/practice/" target="_blank">Посмотреть проект</a>
 
-### Проекты на Gulp
+### Проекты на ![alt text](https://github.com/e-markov/e-markov.github.io/blob/master/gulp.svg)
 #### Restaurant
 <a><a href="https://github.com/e-markov/restaurant/">Скачать проект</a>
 
