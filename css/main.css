@@ -9,6 +9,7 @@ body {
 
 main {
   height: 100vh;
+  width: 100%;
   background: #37474f url(../img/background-main.jpg) center no-repeat;
   background-size: cover;
 }
