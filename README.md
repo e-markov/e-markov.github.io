@@ -9,10 +9,8 @@
 
 *[Посмотреть проект](https://e-markov.github.io/practice/)*
 
-## ![alt text](https://github.com/e-markov/e-markov.github.io/blob/master/gulp.png)
-```
-  проекты на Gulp
-```
+## Проекты на Gulp
+
 #### Restaurant
 *[Скачать проект](https://github.com/e-markov/restaurant/)*
 
