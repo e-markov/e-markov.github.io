@@ -237,7 +237,9 @@ main a:hover {
 }
 
 .about {
-  height: 20rem;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
   width: 100%;
   background-color: #ffffff;
 }
@@ -246,7 +248,7 @@ main a:hover {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 4rem 0;
+  padding: 6rem 0;
   background-color: #c2c2c2c2;
 }
 
@@ -323,6 +325,16 @@ main a:hover {
 .work-project a {
   font-size: 2.6rem;
   text-align: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: #37474f;
+}
+
+.contact-header h2 {
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {
