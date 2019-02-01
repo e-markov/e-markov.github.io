@@ -32,7 +32,18 @@ main span, a{
 }
 
 main a {
+  padding: 0 .6rem;
   font-size: 3.6rem;
+  line-height: 4rem;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+
+main a:hover {
+  background-color: #ffffff;
 }
 
 .flex {
@@ -49,26 +60,42 @@ main a {
   position: fixed;
   top: 0;
   width: 100%;
-  font-size: 3rem;
-  line-height: 6rem;
+  height: 8rem;
   background-color: transparent;
-  transition: 1.6s;
-  -webkit-transition: 1.6s;
-  -moz-transition: 1.6s;
-  -ms-transition: 1.6s;
-  -o-transition: 1.6s;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.header-nav {
+  height: 100%;
 }
 
 .header a {
   margin-left: 4rem;
-  font-weight: 700;
-  color: #dcedc8;
+  padding: 0 .6rem;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 3.6rem;
+  color: #ffffff;
+  transition: background-color .3s;
+  -webkit-transition: background-color .3s;
+  -moz-transition: background-color .3s;
+  -ms-transition: background-color .3s;
+  -o-transition: background-color .3s;
+}
+
+.header a:hover {
+  color: #263238;
+  background-color: #ffffff;
 }
 
 .header.scroll {
-  color: #263238;
+  height: 5rem;
   background-color: #ffffff;
-  box-shadow: 0 .2rem 2rem .2rem rgba(75, 75, 75, 0.7)
+  box-shadow: 0 .6rem 2rem .1rem rgba(75, 75, 75, 0.2)
 }
 
 .header.scroll a {

@@ -18,7 +18,7 @@ $(function() {
     event.preventDefault();
     var section = $(this).attr("href"),
         top = $(section).offset().top;
-    $('html, body').animate({scrollTop: top}, 400);
+    $('html, body').animate({scrollTop: top}, 700);
   });
   $('.header-icon').on('click', function() {
     $('.header').toggleClass('header-open');
