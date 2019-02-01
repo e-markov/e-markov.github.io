@@ -1,4 +1,3 @@
-//WOW - delay animation when scrolling
 var wow = new WOW(
   {
     boxClass:     'wow',
@@ -14,7 +13,6 @@ var wow = new WOW(
 );
 wow.init();
 
-//Event by clicking navigation link 
 $(function() {
   $('a[href^="#"]').on('click', function(event) {
     event.preventDefault();
