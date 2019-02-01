@@ -262,6 +262,7 @@ main a:hover {
   justify-content: center;
   flex-direction: column;
   width: 30rem;
+  margin-top: 5rem;
 }
 
 .work-project-header {
