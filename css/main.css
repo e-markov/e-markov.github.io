@@ -274,11 +274,11 @@ main a:hover {
   height: 20rem;
   width: 100%;
   cursor: default;
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
+  transition: .6s;
+  -webkit-transition: .6s;
+  -moz-transition: .6s;
+  -ms-transition: .6s;
+  -o-transition: .6s;
 }
 
 .bg-practice {
@@ -310,6 +310,12 @@ main a:hover {
 
 .work-project-header h3 {
   opacity: 0;
+  transition: .7s;
+  -webkit-transition: .7s;
+  -moz-transition: .7s;
+  -ms-transition: .7s;
+  -o-transition: .7s;
+  -webkit-transition: .87;
 }
 
 .work-project-header:hover h3 {
