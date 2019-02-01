@@ -32,7 +32,7 @@ main span, a{
 }
 
 main a {
-  
+  font-size: 3.6rem;
 }
 
 .flex {
@@ -48,27 +48,37 @@ main a {
 .header {
   position: fixed;
   top: 0;
-  /*height: 6rem;*/
   width: 100%;
   font-size: 3rem;
   line-height: 6rem;
   background-color: transparent;
+  transition: 1.6s;
+  -webkit-transition: 1.6s;
+  -moz-transition: 1.6s;
+  -ms-transition: 1.6s;
+  -o-transition: 1.6s;
 }
 
 .header a {
   margin-left: 4rem;
   font-weight: 700;
-  color: #263238;
+  color: #dcedc8;
 }
 
 .header.scroll {
+  color: #263238;
   background-color: #ffffff;
+  box-shadow: 0 .2rem 2rem .2rem rgba(75, 75, 75, 0.7)
+}
+
+.header.scroll a {
+  color: #263238;
 }
 
 .about {
-  height: 70rem;
+  height: 90rem;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #c2c2c2c2;
 }
 
 @media (min-width: 768px) {

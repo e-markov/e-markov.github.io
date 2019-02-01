@@ -30,7 +30,7 @@ $(function() {
 
 $(function(){
   $(window).scroll(function(){
-    if ($(window).scrollTop() > $('main').height()){
+    if ($(window).scrollTop() >= $('header').height()){
       $('.header').addClass('scroll');
     }
     else {
