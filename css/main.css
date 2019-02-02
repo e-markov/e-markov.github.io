@@ -98,6 +98,11 @@ main a:hover {
   color: #43a047;
 }
 
+.header-logo img {
+  height: 3rem;
+  width: 3rem;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -243,7 +248,8 @@ main a:hover {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 6rem 0;
+  padding-top: 6rem;
+  padding-bottom: 12rem;
   background-color: #c2c2c2c2;
 }
 
@@ -331,11 +337,29 @@ main a:hover {
 .contact {
   display: flex;
   justify-content: center;
+  padding-top: 6rem;
+  padding-bottom: 4rem;
   background-color: #37474f;
 }
 
 .contact-header h2 {
   color: #ffffff;
+}
+
+.contact-by h4 {
+  margin-top: 8rem;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.contact-social a {
+  margin: 0 1.6rem;
+}
+
+.contact-social img {
+  height: 4rem;
+  width: 4rem;
 }
 
 @media (min-width: 768px) {
