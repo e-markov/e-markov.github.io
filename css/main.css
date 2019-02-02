@@ -123,7 +123,7 @@ main a:hover {
   -o-transition: background-color .3s;
 }
 
-.header a:nth-child(4) {
+.header-nav a:nth-child(4) {
   margin-right: 9rem;
 }
 
@@ -275,11 +275,11 @@ main a:hover {
   height: 20rem;
   width: 100%;
   cursor: default;
-  transition: .6s;
-  -webkit-transition: .6s;
-  -moz-transition: .6s;
-  -ms-transition: .6s;
-  -o-transition: .6s;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
 }
 
 .bg-practice {
@@ -311,11 +311,11 @@ main a:hover {
 
 .work-project-header h3 {
   opacity: 0;
-  transition: .7s;
-  -webkit-transition: .7s;
-  -moz-transition: .7s;
-  -ms-transition: .7s;
-  -o-transition: .7s;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
   -webkit-transition: .87;
 }
 
@@ -395,20 +395,63 @@ main a:hover {
     height: 16rem;
     padding: 1rem 0;
     background-color: #777777;
+    animation: down .6s 1 alternate ease-out forwards;
     transition: .4s;
+    opacity: 0;
     overflow: visible;
     z-index: 5;
     -webkit-transition: .4s;
     -moz-transition: .4s;
     -ms-transition: .4s;
     -o-transition: .4s;
+    -webkit-animation: down .6s 1 alternate ease-out forwards;
+  }
+
+  .header-nav a:nth-child(1) {
+    opacity: 0;
+    animation: downtext .4s .5s alternate ease-out forwards;
+    -webkit-animation: downtext .4s .5s alternate ease-out forwards;
 }
-  .header a:nth-child(4) {
+  .header-nav a:nth-child(2) {
+    opacity: 0;
+    animation: downtext .4s .4s alternate ease-out forwards;
+    -webkit-animation: downtext .4s .4s alternate ease-out forwards;
+  }
+  .header-nav a:nth-child(3) {
+    opacity: 0;
+    animation: downtext .4s .3s alternate ease-out forwards;
+    -webkit-animation: downtext .4s .3s alternate ease-out forwards;
+  }
+  .header-nav a:nth-child(4) {
     margin-right: 0;
+    opacity: 0;
+    animation: downtext .4s .2s alternate ease-out forwards;
+    -webkit-animation: downtext .4s .2s alternate ease-out forwards;
   }
   .header.scroll .header-nav {
     top: 5rem;
     background-color: #ebebeb;
-    box-shadow: inset 0 1.2rem 2rem .1rem rgba(109, 109, 109, 0.2)
+    box-shadow: inset 0 1.2rem 2rem .1rem rgba(109, 109, 109, 0.2);
+  }
+}
+@keyframes down {
+  0% {
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    height: 16rem;
+    opacity: 1;
+  }
+}
+  @keyframes downtext {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
