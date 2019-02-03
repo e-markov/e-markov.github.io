@@ -287,10 +287,11 @@ main a:hover {
 .bg-practice {
   background: #263238 url(../img/practice.jpg) center no-repeat;
   background-size: 100%;
+  -webkit-background-size: 100%;
 }
 .bg-practice:hover {
   background-size: 110%;
-  -webkit-background-size: 105% 105%;
+  -webkit-background-size: 110%;
   box-shadow: inset 0 0 40rem 2rem #263238;
   -webkit-box-shadow: inset 0 0 40rem 2rem #263238;
 }
@@ -298,10 +299,11 @@ main a:hover {
 .bg-restaurant {
   background: #263238 url(../img/restaurant.jpg) center no-repeat;
   background-size: 100%;
+  -webkit-background-size: 100%;
 }
 .bg-restaurant:hover {
   background-size: 110%;
-  -webkit-background-size: 105% 110%;
+  -webkit-background-size: 110%;
   box-shadow: inset 0 0 40rem 2rem #263238;
   -webkit-box-shadow: inset 0 0 40rem 2rem #263238;
 }
@@ -309,10 +311,11 @@ main a:hover {
 .bg-portfolio {
   background: #263238 url(../img/portfolio.jpg) center no-repeat;
   background-size: 100%;
+  -webkit-background-size: 100%;
 }
 .bg-portfolio:hover {
   background-size: 110%;
-  -webkit-background-size: 105% 105%;
+  -webkit-background-size: 110%;
   box-shadow: inset 0 0 40rem 2rem #263238;
   -webkit-box-shadow: inset 0 0 40rem 2rem #263238;
 }
