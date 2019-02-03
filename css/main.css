@@ -289,8 +289,10 @@ main a:hover {
   background-size: 100%;
 }
 .bg-practice:hover {
-  background-size: 115%;
+  background-size: 110%;
+  -webkit-background-size: 105% 105%;
   box-shadow: inset 0 0 40rem 2rem #263238;
+  -webkit-box-shadow: inset 0 0 40rem 2rem #263238;
 }
 
 .bg-restaurant {
@@ -298,8 +300,10 @@ main a:hover {
   background-size: 100%;
 }
 .bg-restaurant:hover {
-  background-size: 115%;
+  background-size: 110%;
+  -webkit-background-size: 105% 110%;
   box-shadow: inset 0 0 40rem 2rem #263238;
+  -webkit-box-shadow: inset 0 0 40rem 2rem #263238;
 }
 
 .bg-portfolio {
@@ -307,8 +311,10 @@ main a:hover {
   background-size: 100%;
 }
 .bg-portfolio:hover {
-  background-size: 115%;
+  background-size: 110%;
+  -webkit-background-size: 105% 105%;
   box-shadow: inset 0 0 40rem 2rem #263238;
+  -webkit-box-shadow: inset 0 0 40rem 2rem #263238;
 }
 
 .work-project-header h3 {
