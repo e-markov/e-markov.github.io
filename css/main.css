@@ -30,6 +30,7 @@ h3 {
 
 a {
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 main {
@@ -140,6 +141,7 @@ main a:hover {
   transition: .4s;
   cursor: pointer;
   z-index: 15;
+  -webkit-tap-highlight-color: transparent;
   -webkit-transition: .4s;
   -moz-transition: .4s;
   -ms-transition: .4s;
