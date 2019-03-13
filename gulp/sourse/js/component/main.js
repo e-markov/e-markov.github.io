@@ -1,0 +1,40 @@
+var wow = new WOW(
+  {
+    boxClass:     'wow',
+    animateClass: 'animated',
+    offset:       250,
+    mobile:       false,
+    live:         true,
+    callback:     function(box) {
+    },
+    scrollContainer: null,
+    resetAnimation: true,
+  }
+);
+wow.init();
+
+$(function() {
+  $('a[href^="#"]').on('click', function(event) {
+    event.preventDefault();
+    var section = $(this).attr("href"),
+        top = $(section).offset().top;
+    $('html, body').animate({scrollTop: top}, 700);
+  });
+  $('.header-icon').on('click', function() {
+    $('.header').toggleClass('open');
+  });
+  $('.header-nav-item').on('click', function () {
+    $('.header').removeClass('open');
+  });
+});
+
+$(function(){
+  $(window).scroll(function(){
+    if ($(window).scrollTop() >= $('header').height()){
+      $('.header, .up').addClass('scroll');
+    }
+    else {
+      $('.header, .up').removeClass('scroll')
+  }
+  });
+});
