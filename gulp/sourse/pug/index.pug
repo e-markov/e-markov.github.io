@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+html(lang="ru")
+head
+  meta(charset="UTF-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible" content="ie=edge")
+  link(href="css/main.min.css" rel="stylesheet")
+  link(href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet")
+  title  Evgeny Markov
+body
+  header.header
+    .header-logo
+        a(href="#main") Evgeny Markov
+        a(href="https://github.com/evgeny-markov" target="_blank")
+          img(src="img/github.svg" alt="GitHub")
+    .header-icon
+      span
+      span
+      span
+      span
+    nav.header-nav
+      a.header-nav-item(href="#main") Главная
+      a.header-nav-item(href="#about") Описание
+      a.header-nav-item(href="#work") Мои проекты
+      a.header-nav-item(href="#contact") Контакты
+  a.up(href="#main")
+    img(src="img/up.svg" alt="Вверх")
+  main.main#main
+    .container.flex.column
+      h1 Привет, я <span> Евгений Марков </span><br> занимаюсь Web разработкой
+      a(href="#about")
+        img(src="img/down.svg" alt="DOWN")
+  section.about#about
+    .container.flex.column 
+      .about-header
+        h2 Описание проектов
+      .about-info
+        p Здесь собраны проекты создые по макетам.
+        p Первый проект <span>"Practice"</span> был создан по мере прохождения курса, за несколько месяцев, он не идеален, но позволил обрести навыки вёрстки, умение использовать инструменты и библиотеки. Использован препроцессор <span>Less</span>, <span>Bootstrap</span>.
+          <br> 
+        p Проект <span>"Restaurant"</span> создан с помощью <span>Gulp</span> за неделю, был применён шаблонизатор <span>Pug</span> и препроцессор <span>Sass</span>. 
+          <br> Настройка <span>Gulp</span> и плагинов для него зяняло некоторое время, т.к. это был первый опыт его использования.
+        p Второй проект на <span>Gulp</span> - <span>"Portfolio"</span> за несколько дней, также применён <span>Pug</span> и <span>Sass</span>.
+        p В моих проектах использовались библиотека от JavaScript - <span>JQuery</span>, библиотеки <span>WOW</span>, <span>SlickSlider</span>, <span>Fotorama</span> и другие.
+      .about-icon
+        img(src="img/html.svg" alt="HTML")
+        img(src="img/css.svg" alt="CSS")
+        img(src="img/bootstrap.svg" alt="Bootstrap")
+        img(src="img/gulp.svg" alt="Gulp")
+        img(src="img/pug.svg" alt="Pug")
+        img(src="img/less.svg" alt="Less")
+        img(src="img/sass.svg" alt="Sass")
+      a(href="#work")
+        img(src="img/down.svg" alt="DOWN")
+  section.work#work
+    .container.flex.column 
+      .work-header
+        h2 Проекты 
+      .work-list
+        .work-project 
+          .work-project-header.practice
+            a.work-project-header-dark(href="https://evgeny-markov.github.io/practice/" target="_blank")
+              h3 Посмотреть
+          h3 Practice
+          .work-project-link
+            a(href="https://github.com/evgeny-markov/practice/" target="_blank") GitHub
+        .work-project
+          .work-project-header.restaurant
+            a.work-project-header-dark(href="https://evgeny-markov.github.io/restaurant/" target="_blank")
+              h3 Посмотреть
+          h3 Restaurant
+          .work-project-link
+            a(href="https://github.com/evgeny-markov/restaurant/" target="_blank") GitHub
+        .work-project 
+          .work-project-header.portfolio
+            a.work-project-header-dark(href="https://evgeny-markov.github.io/portfolio/" target="_blank")
+              h3 Посмотреть
+          h3 Portfolio
+          .work-project-link
+            a(href="https://github.com/evgeny-markov/portfolio/" target="_blank") GitHub
+  secction.contact#contact
+    .container.flex.column
+      .contact-social
+        a(href="https://github.com/evgeny-markov" target="_blank")
+          img(src="img/github.svg" alt="GitHub")
+        a(href="https://t.me/evgeniy_markov" target="_blank")
+          img(src="img/telegram.svg" alt="Telegtam")
+        a(href="mailto:mo190387mei@gmail.com")
+          img(src="img/gmail.svg" alt="Gmail")
+      .contact-by
+        h4 Evgeny Markov  
+  script(src="js/main.min.js") 
