@@ -1,19 +1,11 @@
-# Мои проекты / My project
+# Проекты / Projects
 
-## Первый проект
+## Restaurant
+*[Скачать](https://github.com/evgeny-markov/restaurant/)*
 
-### Practice
-*[Скачать проект](https://github.com/evgeny-markov/practice/)*
+*[Открыть web](https://evgeny-markov.github.io/restaurant/)*
 
-*[Посмотреть проект](https://evgeny-markov.github.io/practice/)*
+## Portfolio
+*[Скачать](https://github.com/evgeny-markov/portfolio/)*
 
-## Проекты на `Gulp`
-
-#### Restaurant
-*[Скачать проект](https://github.com/evgeny-markov/restaurant/)*
-
-*[Посмотреть проект](https://evgeny-markov.github.io/restaurant/)*
-#### Portfolio
-*[Скачать проект](https://github.com/evgeny-markov/portfolio/)*
-
-*[Посмотреть проект](https://evgeny-markov.github.io/portfolio/)*
+*[Открыть web](https://evgeny-markov.github.io/portfolio/)*
